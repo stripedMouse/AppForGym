@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">AppForGym</string>
-    <string name="name">Name</string>
+    <string name="sigin_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name1">Фамилия</string>
+    <string name="name2">Имя</string>
+    <string name="name3">Отчество</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="chose_avatar_b">Аватар</string>
+    <string name="b_Save">Сохранить</string>
 </resources>
