@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/green"
+        android:onClick="onClickSignIn"
         android:text="@string/sigin_in"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/green"
+        android:onClick="onClickSignUp"
         android:text="@string/sign_up"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/bSignIn"
@@ -31,20 +33,21 @@
 
     <ImageView
         android:id="@+id/imAvatarMain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="90dp"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/avatar"
+        />
 
     <TextView
         android:id="@+id/tMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         android:textSize="20dp"
         android:textColor="@color/black"
         android:layout_marginTop="20dp"
